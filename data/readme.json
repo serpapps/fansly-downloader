@@ -1,1 +1,107 @@
-{}
+{
+  "seo_title": "Fansly Downloader - Browser Extension for Saving Fansly Media",
+  "seo_description": "Download supported Fansly videos, images, GIFs, text posts, and creator-page media from content you can already access.",
+  "product_page_url": "https://apps.serp.co/fansly-downloader",
+  "purchase_url": "https://apps.serp.co/fansly-downloader",
+  "store_product_id": null,
+  "name": "Fansly Downloader",
+  "tagline": "Download Fansly videos, images, GIFs, text posts, and creator-page media for offline access",
+  "featured_image": "https://raw.githubusercontent.com/serpapps/fansly-downloader/main/assets/workflow-preview.webp",
+  "featured_image_gif": null,
+  "github_repo_url": "https://github.com/serpapps/fansly-downloader",
+  "github_repo_tags": [
+    "fansly-downloader",
+    "fansly-video-downloader",
+    "browser-extension"
+  ],
+  "github_gist_url": null,
+  "features": [
+    "Video downloads",
+    "Image downloads",
+    "GIF downloads",
+    "Text post saving",
+    "Bulk creator-page collection",
+    "Sidebar downloader workflow"
+  ],
+  "chrome_web_store_url": null,
+  "description": "Fansly Downloader is a browser extension that helps users save supported videos, images, GIFs, text posts, and creator-page media from Fansly content they can already access.",
+  "product_video": null,
+  "related_videos": null,
+  "changelog": null,
+  "version_number": 1,
+  "updated_at": "2026-06-05T00:00:00Z",
+  "troubleshooting_instructions": [
+    "Refresh the Fansly page and let it load fully before scanning.",
+    "Play or reveal video posts briefly if media has not initialized yet.",
+    "Scroll creator pages to load more posts before using bulk collection."
+  ],
+  "installation_instructions": "1. Open the latest release: https://github.com/serpapps/fansly-downloader/releases/latest\n2. Download the extension build for your browser\n3. Install or load the extension\n4. Open Fansly and sign in\n5. Use the sidebar on supported creator pages or posts",
+  "usage_instructions": [
+    "Open Fansly in the browser where the extension is installed",
+    "Sign in to the Fansly account with access to the content",
+    "Open a supported creator page or post",
+    "Open the Fansly Downloader sidebar",
+    "Select videos, images, text, or bulk tools",
+    "Start the download and wait for the browser download to complete"
+  ],
+  "faqs": null,
+  "supported_operating_systems": [
+    "windows",
+    "macos",
+    "linux"
+  ],
+  "status": "live",
+  "technologies": [
+    "JavaScript",
+    "Browser Extension",
+    "Chrome Extension",
+    "Node.js"
+  ],
+  "serpco_product_page_link": "https://serp.co/products/fansly-downloader/reviews/",
+  "serpai_product_page_link": "https://serp.ai/products/fansly-downloader/reviews/",
+  "file_formats": [
+    "mp4",
+    "jpg",
+    "png",
+    "gif",
+    "txt"
+  ],
+  "categories": [
+    "social media site"
+  ],
+  "extraction_targets": [
+    "videos",
+    "images",
+    "gifs",
+    "text posts",
+    "creator-page media"
+  ],
+  "content_medium": [
+    "video",
+    "image",
+    "text"
+  ],
+  "discovery_source": null,
+  "related_articles": null,
+  "related_gists": null,
+  "funding_links_github": [
+    "devinschumacher"
+  ],
+  "funding_links_liberapay": [
+    "devinschumacher"
+  ],
+  "funding_links_opencollective": [
+    "devinschumacher"
+  ],
+  "funding_links_custom": [
+    "https://apps.serp.co/fansly-downloader",
+    "https://github.com/serpapps/fansly-downloader/releases/latest",
+    "https://help.serp.co/en/",
+    "https://github.com/sponsors/devinschumacher"
+  ],
+  "keywords": [
+    "fansly downloader",
+    "fansly video downloader",
+    "fansly image downloader"
+  ]
+}
