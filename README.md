@@ -1,4 +1,4 @@
-# Fansly Downloader (Browser Extension)
+# Fansly Video Downloader (Browser Extension)
 
 > Download videos, images, GIFs, text posts, and creator-page media from Fansly pages you can already access.
 
@@ -12,7 +12,7 @@ Fansly Downloader is a browser extension built for subscribers who want a cleane
 
 ## Links
 
-- :rocket: Get it here: [Fansly Downloader](https://apps.serp.co/fansly-downloader)
+- :rocket: Get it here: [Fansly Downloader](https://serp.ly/fansly-downloader?via=github)
 - :new: Latest release: [GitHub Releases](https://github.com/serpapps/fansly-downloader/releases/latest)
 - :question: Help center: [SERP Help](https://help.serp.co/en/)
 - :beetle: Report bugs: [GitHub Issues](https://github.com/serpapps/fansly-downloader/issues)
@@ -129,7 +129,7 @@ Some posts expose limited metadata. The extension uses the best available creato
 - No credit card required for the trial
 - Unlimited downloads are available with a paid license
 
-Start here: [https://apps.serp.co/fansly-downloader](https://apps.serp.co/fansly-downloader)
+Start here: [https://serp.ly/fansly-downloader?via=github](https://serp.ly/fansly-downloader?via=github)
 
 ## Installation Instructions
 
