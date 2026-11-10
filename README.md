@@ -1,14 +1,16 @@
-# Fansly Video Downloader (Browser Extension)
+# Fansly Downloader (Browser Extension) | How to Download Fansly Videos
 
-> Download videos, images, GIFs, text posts, and creator-page media from Fansly pages you can already access.
+> Browser extension that downloads Fansly videos, images, GIFs and text posts, or bulk-saves a creator's media, from creators your account subscribes to.
 
-Fansly Downloader is a browser extension built for subscribers who want a cleaner way to save accessible Fansly media for offline viewing, local backup, and personal organization. It works inside your active Fansly browser session, detects supported media on creator pages and posts, and provides a browser-native download workflow without requiring desktop tools or command-line utilities.
+Fansly Downloader is a browser extension for subscribers who want to keep the Fansly content they already have access to. Save a single video from a post, or pick a creator you subscribe to and bulk-save their media to a folder on your computer.
 
-- Save supported Fansly videos as MP4 files
-- Download images, GIFs, and visible post media
-- Capture text posts for personal archiving and reference
-- Use bulk tools to collect media from a creator page
-- Works across Chrome, Edge, Brave, Opera, Yandex, and Whale
+- Download Fansly videos as MP4, including streamed videos that need converting
+- Save images and GIFs in their original format, and post text as TXT
+- Bulk-download a creator's media: all media, photos only or videos only
+- Bulk runs read the creator's vault albums when Fansly provides them
+- Download buttons right on the media inside Fansly posts
+
+![Fansly Downloader workflow preview](assets/workflow-preview.webp)
 
 ## Links
 
@@ -18,158 +20,160 @@ Fansly Downloader is a browser extension built for subscribers who want a cleane
 - :beetle: Report bugs: [GitHub Issues](https://github.com/serpapps/fansly-downloader/issues)
 - :bulb: Request features: [Feature Requests](https://github.com/serpapps/fansly-downloader/issues)
 
-## Preview
-
-![Fansly Downloader workflow preview](assets/workflow-preview.webp)
-
-## Table of Contents
-
-- [Why Fansly Downloader](#why-fansly-downloader)
-- [Features](#features)
-- [How It Works](#how-it-works)
-- [Step-by-Step Tutorial: How to Download Fansly Content](#step-by-step-tutorial-how-to-download-fansly-content)
-- [Supported Formats](#supported-formats)
-- [Who It's For](#who-its-for)
-- [Common Use Cases](#common-use-cases)
-- [Troubleshooting](#troubleshooting)
-- [Trial & Access](#trial--access)
-- [Installation Instructions](#installation-instructions)
-- [FAQ](#faq)
-- [Notes](#notes)
-- [License](#license)
-- [About Fansly](#about-fansly)
-
 ## Why Fansly Downloader
 
-Fansly delivers subscription content through a web-based feed. Videos, images, GIFs, and text posts are easy to view in the browser, but saving accessible media into an organized local library can be slow and repetitive. Users often end up relying on screen recordings, manual page inspection, or one-off downloads that do not preserve much context.
+Fansly shows subscription content in a web feed. Viewing is easy, but saving what you have access to
+means screen recording or digging through page code, and many videos are streamed in pieces rather than
+served as a single file.
 
-Fansly Downloader focuses on the active browser page. It detects supported media available to your logged-in session, organizes the results by type, and lets you save individual items or queue creator-page media through the extension sidebar.
+Fansly Downloader works inside your signed-in Fansly session. It finds the media on the page, converts
+streamed videos to MP4, and can collect a whole creator's media in one bulk run.
 
 ## Features
 
-- Video detection for supported Fansly creator pages and posts
-- Image and GIF download support for accessible post media
-- Text post capture for local notes and personal archives
-- Bulk creator-page collection for videos, images, GIFs, and text posts
-- Sidebar interface with separate video, image, text, and bulk views
-- Browser-native downloads through the normal downloads system
-- Progress tracking through the in-extension download manager
-- Shared SERP authentication and free trial flow
-- Cross-browser packaging for Chrome, Edge, Brave, Opera, Yandex, and Whale
+- **Videos**: download Fansly videos as MP4, including streamed videos that need converting
+- **Images and GIFs**: saved in their original format
+- **Text posts**: saved as plain TXT files
+- **Side panel**: Videos, Images/GIFs, Text and Bulk tabs for the page you have open
+- **In-post buttons**: save a single item without opening the panel
+- **Bulk downloader**: lists the creators you subscribe to, with search; choose all media, photos only or videos only
+- **Vault albums**: bulk runs read a creator's vault albums when Fansly provides them, and their posts otherwise
+- **Bulk Saver**: writes a creator's files to a folder you choose
+- **Quality shown**: see the detected quality, such as 1080p, before you download
+- **DRM notice**: tells you when a video is DRM-protected instead of saving a broken file
+- **Private by design**: runs with your own Fansly session; your files never pass through our servers
 
-## How It Works
+## Supported Browsers
 
-1. Install the extension from the latest release.
-2. Open Fansly and sign in to the account with access to the creator content.
-3. Navigate to a creator page or post containing media you want to save.
-4. Open the Fansly Downloader extension sidebar.
-5. Review the detected videos, images, GIFs, text posts, or bulk tools.
-6. Download individual items or collect creator-page media in bulk.
-7. Files are saved through your browser's normal downloads system.
+| Browser | Supported |
+|---|---|
+| Google Chrome | ✅ |
+| Microsoft Edge | ✅ |
+| Brave | ✅ |
+| Opera | ✅ |
+| Naver Whale | ✅ |
+| Yandex Browser | ✅ |
+| Firefox, Safari, mobile browsers | ❌ Not supported |
 
-## Step-by-Step Tutorial: How to Download Fansly Content
+Works on Windows, macOS and Linux desktops. Every release ships one ZIP per browser
+(for example `fansly-downloader-chrome.zip`).
 
-1. Install Fansly Downloader from the latest GitHub release.
-2. Sign in to Fansly in the same browser profile.
-3. Open the creator page or post you want to save from.
-4. Let the page load fully. For videos, play or reveal the post if needed so the browser can initialize media.
-5. Click the Fansly Downloader extension button.
-6. Use the sidebar tabs to review videos, images, text posts, or bulk tools.
-7. Click Download for an individual item, or use Bulk Tools to collect creator-page media.
-8. Wait for the queue to finish and find the saved files in your browser's Downloads folder.
+## How to Download Fansly Videos (Step-by-Step)
+
+1. Install the extension (see [Installation Instructions](#installation-instructions)) and sign in with your email.
+2. Sign in to Fansly in the same browser and open a post from a creator you subscribe to.
+3. Click the download button on the video in the post, or open the side panel's **Videos** tab and click **Download**.
+4. For a whole creator, open the **Bulk** tab, search for the creator, choose all media, photos only or videos only, and start. Bulk Saver asks for a folder once.
 
 ## Supported Formats
 
-- Input: Supported Fansly CDN video files
-- Input: Supported Fansly-hosted images and GIFs
-- Input: Visible Fansly post text
-- Output: MP4 for supported video downloads
-- Output: Original source image or GIF formats where available
-- Output: TXT for saved text posts
-
-Available formats and quality depend on what Fansly exposes to your browser session for the current page and account.
+- **Videos:** MP4
+- **Images and GIFs:** original format
+- **Text posts:** TXT
 
 ## Who It's For
 
-- Fansly subscribers who want offline access to content from creators they support
-- Users organizing paid subscription media in local folders
-- Content archivists keeping personal backups of accessible posts
-- People with limited or unreliable internet access who prefer local playback
-- Subscribers managing content across multiple creator pages
-
-## Common Use Cases
-
-- Save a creator's video post for offline viewing
-- Archive image sets from a subscription before content rotates
-- Keep text posts and captions for personal reference
-- Queue multiple creator-page files during one session
-- Build a local media library organized by creator and post
+- **Subscribers** who want offline access to creators they pay for
+- **Collectors** organizing a local library by creator
+- **People with unreliable internet** who prefer local playback
 
 ## Troubleshooting
 
-**The extension does not detect a video**  
-Open the post, let the page load fully, and try playing the video briefly before scanning again.
+**A video is not detected**  
+Open the post, let it load fully and play the video briefly, then check the panel again.
 
-**The sidebar says no media was found**  
-Refresh the Fansly page, scroll enough for the posts to load, then reopen the extension sidebar.
+**Bulk finds fewer items than expected**  
+Fansly loads feeds dynamically. Scroll the creator page to load more posts, then run bulk again.
 
-**Bulk collection finds fewer items than expected**  
-Fansly loads feeds dynamically. Scroll the creator page to load more posts, then run bulk collection again.
+**A video says it is DRM-protected**  
+A small number of Fansly videos use real DRM copy protection. Those cannot be saved.
 
-**A download is blocked by access or login state**  
-The extension only works with content your Fansly account can already access in the current browser session.
+## Free Trial & Pricing
 
-**A file name looks generic**  
-Some posts expose limited metadata. The extension uses the best available creator, post, and media details for filenames.
+You get **3 free downloads a week** with no credit card. A **subscription** gives unlimited downloads, with updates included.
 
-## Trial & Access
-
-- Includes **3 free downloads** so you can test the workflow first
-- Email sign-in uses secure one-time password verification
-- No credit card required for the trial
-- Unlimited downloads are available with a paid license
-
-Start here: [https://serp.ly/fansly-downloader?via=github](https://serp.ly/fansly-downloader?via=github)
+- Sign in with your email and a one-time code; no password to create.
+- Your free downloads reset every week. In current versions only finished downloads count; a failed or cancelled download does not use one.
+- See current plans on the [product page](https://serp.ly/fansly-downloader?via=github).
 
 ## Installation Instructions
 
-1. Open the latest release page:
-   [https://github.com/serpapps/fansly-downloader/releases/latest](https://github.com/serpapps/fansly-downloader/releases/latest)
-2. Download the extension build for your browser.
-3. Install or load the extension in your browser.
-4. Open Fansly and sign in.
-5. Navigate to a supported creator page or post.
-6. Use the extension sidebar to detect and download available content.
+1. Download the ZIP for your browser from the [latest release](https://github.com/serpapps/fansly-downloader/releases/latest) (for example `fansly-downloader-chrome.zip`).
+2. Unzip it. You get a folder that contains `manifest.json`.
+3. Open your browser's extensions page: `chrome://extensions` (Chrome), `edge://extensions` (Edge), `brave://extensions` (Brave), `opera://extensions` (Opera), `whale://extensions` (Whale) or `browser://extensions` (Yandex).
+4. Turn on **Developer mode**.
+5. Click **Load unpacked** and select the unzipped folder.
+6. Pin the extension, click its icon, and sign in with your email and the one-time code we send you.
+
+Prefer a guided setup? The [product page](https://serp.ly/fansly-downloader?via=github) walks you through the same steps.
+When a newer version is published, the extension shows an update notice; download the new ZIP from
+[GitHub Releases](https://github.com/serpapps/fansly-downloader/releases/latest) and load it the same way.
 
 ## FAQ
 
-**What kinds of Fansly content can I download?**  
-Supported videos, images, GIFs, and text posts that are available to your logged-in Fansly session.
+### How do I download a video from Fansly?
 
-**Does it work on paid posts?**  
-It works only when your Fansly account already has access to the post in the browser.
+Sign in to Fansly and open the post. Either click the download button on the video in the post, or open the extension's side panel, go to the **Videos** tab and click **Download** next to the video. It saves as an MP4.
 
-**Can it download an entire creator page?**  
-The bulk tools collect media from creator pages that your browser can load and access. Dynamic feeds may require scrolling to load more posts first.
+### How do I download a whole Fansly profile?
 
-**Do I need extra software?**  
-No. The workflow runs through the browser extension and browser downloads system.
+Open the **Bulk** tab. It lists the creators you subscribe to; search for one and select them. Choose **All media**, **Photos only** or **Videos only**, then start. Bulk Saver asks for a folder once and saves the creator's files there.
 
-**Where are files saved?**  
-Files are saved through your browser's normal download flow, usually into your Downloads folder.
+### Can I download Fansly images, GIFs and text posts too?
+
+Yes. The side panel has separate Images/GIFs and Text tabs. Images and GIFs keep their original format, and post text is saved as a plain TXT file.
+
+### Does bulk download include vault albums?
+
+Yes. For a bulk run the extension first collects the creator's media from their vault albums. If Fansly returns nothing there, it collects from the creator's posts instead.
+
+### What video quality do I get?
+
+The quality Fansly provides for each video, such as 1080p. The extension picks the best version it finds and cannot make a video sharper than the version Fansly serves.
+
+### Why does a video say it is DRM-protected?
+
+A small number of Fansly videos use real DRM copy protection. Those cannot be saved, and the extension shows a message instead of saving a broken file.
+
+### Do I need to be subscribed to the creator?
+
+Yes. The extension uses your own signed-in Fansly session, so it can save only what your account can already view. It does not unlock paid posts or other subscription tiers.
+
+### Can I record Fansly live streams?
+
+Not with this extension. Live streams are handled by the separate [Fansly Live Downloader](https://github.com/serpapps/fansly-live-downloader).
+
+### Where are my files saved?
+
+Single downloads go to your browser's normal Downloads folder. Bulk downloads go to the folder you choose in Bulk Saver.
+
+### Which browsers are supported?
+
+Chrome, Edge, Brave, Opera, Whale and Yandex on Windows, macOS and Linux. Firefox, Safari and mobile browsers are not supported.
+
+### Is there a free trial?
+
+Yes. You get **3 free downloads a week** with no credit card. A **subscription** gives unlimited downloads, with updates included.
 
 ## Notes
 
-- Only download content you own or have explicit permission to save
-- The extension only works on media you can already access in your browser session
-- Media quality depends on the source content Fansly exposes for that post
-- Fansly platform updates may affect detection and download behavior
-- An internet connection is required to access and download media from the site
+- Only download content you own or have permission to save.
+- The extension works with videos your own account can already watch in the browser. It does not unlock paid, private or locked content.
+- Quality depends on what the source player serves; the extension cannot make a video sharper than the original.
+- Site updates can affect detection. If something stops working, [open an issue](https://github.com/serpapps/fansly-downloader/issues) and include the page type (not private links).
 
 ## License
 
 This repository is distributed under the proprietary SERP Apps license in the [LICENSE](LICENSE) file. Review that file before copying, modifying, or redistributing any part of this project.
 
+## Related
+
+- [Fansly Live Downloader](https://github.com/serpapps/fansly-live-downloader)
+- [OnlyFans Downloader](https://github.com/serpapps/onlyfans-downloader)
+- [JustForFans Downloader](https://github.com/serpapps/justforfans-downloader)
+
 ## About Fansly
 
-Fansly is a subscription-based creator platform where creators publish exclusive photos, videos, GIFs, and posts for followers and paying subscribers. Fansly Downloader provides a focused browser-extension workflow for saving supported content locally when you have the right to download it.
+Fansly is a subscription-based creator platform where creators publish photos, videos, GIFs and posts
+for followers and paying subscribers. Fansly Downloader gives subscribers a browser-based way to keep a
+local copy of the content they already have access to.
